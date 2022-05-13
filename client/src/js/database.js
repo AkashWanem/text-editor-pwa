@@ -25,7 +25,7 @@ export const putDb = async (content) => {
 
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
-  console.error('getDb not implemented')
+  console.error('get data from jateDB')
   const jateDB = await openDB("jate", 1);
 
   // Create a new transaction and specify the database and data privileges.
